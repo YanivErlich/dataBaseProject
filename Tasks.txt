@@ -1,0 +1,43 @@
+Users Queries:
+
+Patient:
+1. - Display all Prescription(includeign lines) worte for a patient (using patient_id)
+2. - for a given patient id and doctor name display all sessions that the patient had with the doctor
+3. - for a given doctor id and day, display the schedule of that doctor
+4. - for a given patiend id display all of his diagnostics
+5. - for a given patient id show all sessions that had more than 1 line in the prescription
+6. - for a given patient id show all sessions that had more than 1 diagnosis
+7. - for a given patient id display all doctors info that had a session with that patient
+8. - for a given patient id show all sessions that had an analysis
+9. - for a given patient id count the number of sessions
+10. - for a given patient id display the rooms he had sessions in
+Doctor:
+1. - for a given doctor id show all the prescriptions he wrote
+2. - for a given doctor id show all his patients
+3. - for a given doctor id display his manager info
+4. - for a given doctor id show all sessions that had more than 1 line in prescription
+5. - for a given doctor id count the number of session he had
+6. - for a given doctor id display the medicines he prescibed
+7. - for a given doctor id display the number of prescription he wrote
+8. - for a given doctor id show the number of diagnostics he gave
+9. - for a given doctor id show the session that had a diagnosis of diabetes 
+10. - for a given doctor id display his schedule
+Manager:
+1. - display the doctor that diagnosed the youngest patient with diabetes
+2. - Display all male Patient that older then 45 , sorted by dec age
+3. - Display all female doctor in age btween 35 and 59 that , sorted by asc age   
+4. - Display all doctor with more then 10 years of expirnce sorted by years of exp desc
+5. - Display all the doctors aspsific last name
+6. - Display all Prescription(includeign lines) worte by a aspsific doctor
+7. - Display all Prescription that been given in a spasific day
+8. - Display Doctor information who wrote the maximum diagnostics
+9. - Display first name of all patients who had HGB > 16
+10. - Display all Patient who ever hade asison in aspesific room
+
+Log Tables:
+1. Patient
+2. Session
+3. Doctor
+4. Schedules
+5. Medicine
+6. Diagnosis
